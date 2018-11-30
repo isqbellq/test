@@ -2,6 +2,10 @@ html, body {
  margin: 0;
  padding: 0;
 }
+*:focus { 
+	outline: transparent !important; 
+	box-shadow: none !important;
+}
 .navbar {
     background-color: #efecf9 !important;
     border-color: #E7E7E7 !important;
