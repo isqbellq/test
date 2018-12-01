@@ -107,16 +107,21 @@ hr {
 footer {
 	background-color: #333;
 	color: #ccc;
-	padding-top: 20px;
+	padding-top: 25px;
 }
 footer hr {
 	width: 50%;
 	opacity: .5;
 }
-.footer-links ul, li, a {
-	color: #aaa !important;
-    list-style: none;
+.footer-links ul, .footer-links li, .footer-links a {
+	color: #aaa;
+    list-style: inside;
     padding-right: 20px;
+}
+.footer-links a:hover {
+	color: #ccc;
+	text-shadow: 1px 1px 4px #aaa;
+	text-decoration: none;
 }
 .copyright {
 	background-color: #222;
