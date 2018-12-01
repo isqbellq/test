@@ -107,10 +107,9 @@ footer {
 	padding: 5%;
 	margin: 0 !important;
 }
-.container-fluid {
+.container-fluid footer {
     width: 100%;
-    padding-right: 0;
-    padding-left: 0;
+}
 
 /*---Media Queries---*/
 @media (max-width: 992px) and (min-width: 769px){
