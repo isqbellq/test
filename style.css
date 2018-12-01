@@ -7,10 +7,9 @@ html, body {
 	box-shadow: none !important;
 }
 .navbar {
-    background-color: #efecf9 !important;
-    border-color: #E7E7E7 !important;
-    opacity: 0.95;
-    -webkit-box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.30);
+    background-color: #efeef3 !important;
+/*    opacity: 0.95;
+*/    -webkit-box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.30);
 	-moz-box-shadow:    0px 3px 5px rgba(0, 0, 0, 0.30);
 	box-shadow:         0px 3px 5px rgba(0, 0, 0, 0.30);
 }
@@ -82,9 +81,16 @@ html, body {
 	text-shadow: 0 0 5px #000;
 	color: #ddd;
 }
+.one-sec h1 {
+	font-size: 170%;
+	text-transform: uppercase;
+}
+hr {
+	color: #222;
+}
 .one-sec {
-	padding-right: 15%;
-	padding-left: 15%;
+	padding-right: 10%;
+	padding-left: 10%;
 
 }
 .one-sec-title {
@@ -92,9 +98,19 @@ html, body {
 	text-align: center;
 }
 .jumbotron {
-	background-color: #efecf9 !important;
+	background-color: #efeef3 !important;
 	border-radius: 0px !important;
 }
+footer {
+	background-color: #222;
+	color: #ccc;
+	padding: 5%;
+	margin: 0 !important;
+}
+.container-fluid {
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
 
 /*---Media Queries---*/
 @media (max-width: 992px) and (min-width: 769px){
@@ -122,7 +138,6 @@ html, body {
 	}
 }
 @media (max-width: 576px) {
-
 	.header-img {
 		height: 340px;
 	}
@@ -140,8 +155,5 @@ html, body {
 	.btn-circle {
 		padding: 0px;
 		margin: 0 5px;
-	}
-	.display-4 {
-		font-size: 160%;
 	}
 }
