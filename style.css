@@ -1,8 +1,11 @@
+@import 'https://fonts.googleapis.com/css?family=Lato:400,700';
+
 html, body {
 	margin: 0;
 	padding: 0;
 	height: 100%;
 	width: 100%;
+	font-family: 'Lato', sans-serif;
 }
 *:focus { 
 	outline: transparent !important; 
@@ -85,6 +88,7 @@ html, body {
 }
 .one-sec h1 {
 	font-size: 170%;
+	padding: 30px;
 	text-transform: uppercase;
 }
 hr {
@@ -99,10 +103,35 @@ hr {
 	text-shadow: none;
 	text-align: center;
 }
-.jumbotron {
-	background-color: #efeef3 !important;
-	border-radius: 0px !important;
-	margin-bottom: 0;
+.list {
+	background-color: #efeef3;
+	margin: auto;
+	width: 100%;
+	padding: 30px 15%;
+	display: grid;
+	grid-template-rows: 1fr 1fr 1fr;
+	text-align: justify;
+}
+.grid {
+	display: inline-flex;
+}
+.icon {
+/*	display: flex;
+*/	align-items: center;
+	justify-content: center;
+	color: #222;
+	padding: 20px;
+}
+.fa-lightbulb {
+	padding: 15px;
+}
+.description {
+	display: flex;
+	flex-direction: column;
+	padding: 5px;
+}
+.three-column-area {
+	padding: 30px;
 }
 footer {
 	background-color: #333;
@@ -153,6 +182,9 @@ footer hr {
 		margin: .5rem;
 		padding: 0px;
 	}
+	.list {
+		padding: 30px 8%;
+	}
 }
 @media (max-width: 576px) {
 	.header-img {
@@ -172,5 +204,9 @@ footer hr {
 	.btn-circle {
 		padding: 0px;
 		margin: 0 5px;
+	}
+	.list {
+		padding: 25px;
+		padding-left: 0;
 	}
 }
