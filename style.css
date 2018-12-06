@@ -209,4 +209,10 @@ footer hr {
 		padding: 25px;
 		padding-left: 0;
 	}
+	.fa-lightbulb, .fa-battery-full, .fa-hands-helping {
+		font-size: 40px !important;
+	}
+	.description {
+		padding-left: 0px;
+	}
 }
