@@ -122,8 +122,12 @@ hr {
 	color: #222;
 	padding: 20px;
 }
+.icons {
+	opacity: 0.35;
+}
 .fa-lightbulb {
 	padding: 15px;
+	padding-top: 0
 }
 .description {
 	display: flex;
