@@ -1,11 +1,11 @@
-@import 'https://fonts.googleapis.com/css?family=Lato:400,700';
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Caption');
 
 html, body {
 	margin: 0;
 	padding: 0;
 	height: 100%;
 	width: 100%;
-	font-family: 'Lato', sans-serif;
+	font-family: 'PT Sans Caption', sans-serif;
 }
 body p {
 	font-size: 17px;
@@ -91,8 +91,9 @@ body p {
 	color: #ddd;
 }
 .one-sec h1 {
-	font-size: 170%;
+	font-size: 200%;
 	padding: 30px;
+	font-weight: bold;
 	text-transform: uppercase;
 }
 hr {
@@ -130,11 +131,11 @@ hr {
 	padding: 5px;
 }
 .three-column-area {
-	padding: 30px;
+	padding: 70px;
 }
 footer {
 	background-color: #333;
-	color: #ccc;
+	color: #ddd;
 	padding-top: 25px;
 }
 footer hr {
@@ -142,7 +143,7 @@ footer hr {
 	opacity: .5;
 }
 .footer-links ul, .footer-links li, .footer-links a {
-	color: #aaa;
+	color: #ccc;
     list-style: none;
     padding-right: 20px;
 }
