@@ -192,13 +192,12 @@ footer hr {
 	}
 }
 @media (max-width: 576px) {
-	.header-img {
-		min-height: 100px, auto;
-	}
 	.header-caption { 
 		text-align: center;
 		margin-top: 40px;
 		padding: 25px 0 10px 0;
+		height: 280px;
+		background-size: cover;
 	}
 	.header-caption h1 {
 		font-size: 250%;
